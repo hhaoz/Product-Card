@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 280px;
+    height: 386px;;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+img {
+    width: 280px;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.circle {
+    width: 24px;
+    height: 24px;
+    background-color: #f9f9f9;
+    border: 1px solid #B2B2B2;
+    border-radius: 50%;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0A2647;
+    color: #F5F5F5;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 8px 0;
+    border: none;
+}
